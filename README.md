@@ -4,8 +4,10 @@
 
 <div align="center">
 
- <a href="">[![Multiplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml)</a>
-<a href="">[![Singleplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml)</a>
+[![Multiplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_windows.yml)
+[![Singleplayer Win](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_windows.yml)
+[![Multiplayer Linux](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_linux.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/MP_linux.yml)
+[![Singeplayer Linux](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_linux.yml/badge.svg)](https://github.com/Nbc66/source-sdk-2013-ce/actions/workflows/SP_linux.yml)
 
 </div>
 

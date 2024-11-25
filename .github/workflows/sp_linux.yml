@@ -1,0 +1,34 @@
+name: Multiplayer Linux
+on: 
+  push:
+    paths:
+      - '.github/**'
+      - 'sp/src/**'
+  pull_request:
+   paths:
+      - 'sp/src/**'
+
+jobs:
+  build:
+    name: Build Singleplayer Linux Binaries
+    runs-on: ubuntu-linux
+    container:
+      image: registry.gitlab.steamos.cloud/steamrt/sniper/sdk
+        
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create Project
+        working-directory: sp/src
+        run: devtools/bin/vpc /sdk2013ce +game /mksln sdk2013ce
+
+      - name: Build Project
+        working-directory: sp/src
+        run: make -f sdk2013ce.mak
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: sp_sdk2013ce_linux
+          path: sp/game/mod_sdk2013ce/bin/*
