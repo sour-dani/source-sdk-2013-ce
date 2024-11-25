@@ -1,4 +1,4 @@
-name: Multiplayer Linux
+name: Singleplayer Linux
 on: 
   push:
     paths:
