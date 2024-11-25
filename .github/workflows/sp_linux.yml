@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     name: Build Singleplayer Linux Binaries
-    runs-on: ubuntu-linux
+    runs-on: ubuntu-latest
     container:
       image: registry.gitlab.steamos.cloud/steamrt/sniper/sdk
         
