@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-    - name: Configure dependencies
+      - name: Configure dependencies
         run: sudo apt update && sudo apt install -y g++-9-multilib gcc-9-multilib
 
       - name: Create Project
